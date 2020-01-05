@@ -3,4 +3,4 @@ all:
 
 install:
 	mkdir -p $(DESTDIR)/usr/share/hildon-application-manager
-	cp -r catalogues defaults domains keys $(DESTDIR)/usr/share/hildon-application-manager
+	cp -r catalogues defaults domains $(DESTDIR)/usr/share/hildon-application-manager
