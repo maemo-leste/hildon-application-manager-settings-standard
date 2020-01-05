@@ -1,0 +1,4 @@
+<settings>
+  <distribution>fremantle-1.3</distribution>
+  <notifier-uri>http://tableteer.nokia.com/application-notices/notice-${HARDWARE}-fremantle</notifier-uri>
+</settings>

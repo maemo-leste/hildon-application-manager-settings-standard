@@ -1,0 +1,44 @@
+#! /bin/sh
+
+hamdir=/usr/share/hildon-application-manager
+keydir=$hamdir/keys
+
+# XXX - fix apt to have a keys.d
+#
+apt-key add $keydir/variant-keys.gpg
+
+# Add SSU authentication file 
+set -e
+
+TGT=''
+USER=user
+GROUP=users
+
+if [ -e /targets/links/scratchbox.config ] ; then
+        . /targets/links/scratchbox.config
+        TGT=$SBOX_TARGET_DIR
+fi
+
+# HOME_VAR="$TGT/home/$USER"
+# AUTH=$HOME_VAR/auth
+# DST=/etc/apt/auth
+
+# case "$1" in
+#        configure)
+                #if [ -d $HOME_VAR ]; then
+#                        echo "Create new authentication file link"
+#                        ln -s /home/user/auth $DST
+                # fi
+#        ;;
+
+#        abort-upgrade|abort-remove|abort-deconfigure)
+
+#        ;;
+
+#        *)
+#                echo "postinst called with unknown argument \`$1'" >&2
+#                exit 1
+#        ;;
+# esac
+
+exit 0

@@ -1,0 +1,161 @@
+hildon-application-manager-settings-standard (21+0+0m5) unstable; urgency=low
+
+  * This entry has been added by BIFH queue processor
+    version has been changed to 21+0+0m5
+
+ -- Gary Birkett <ext-gary.2.birkett@nokia.com>  Wed, 01 Sep 2010 15:35:18 +0300
+
+hildon-application-manager-settings-standard (21+0) unstable; urgency=low
+
+  * Fixes: NB#188695 change dist to fremantle-1.3
+
+ -- Alban Crequy <alban.crequy@collabora.co.uk>  Tue, 31 Aug 2010 12:28:34 +0100
+
+hildon-application-manager-settings-standard (20+0) unstable; urgency=low
+
+  * Fixes: NB#161271  Ovi store catalogue needs to be changed for fremantle-1.2
+
+ -- Alban Crequy <alban.crequy@collabora.co.uk>  Thu, 18 Mar 2010 14:42:54 +0000
+
+hildon-application-manager-settings-standard (19+0) unstable; urgency=low
+
+  * Fixes: NB#158497 change dist to fremantle-1.2 in defaults and
+    variant-catalogues.xexp
+
+ -- Alban Crequy <alban.crequy@collabora.co.uk>  Mon, 15 Mar 2010 15:16:46 +0000
+
+hildon-application-manager-settings-standard (18+0) unstable; urgency=low
+
+  * Fixes: NB#158497 - change dist to fremantle-1.2
+  * fix first applied by Alban Crequy <alban.crequy@collabora.co.uk>
+
+ -- Gary Birkett <gary.birkett@collabora.co.uk>  Tue, 09 Mar 2010 14:07:13 +0000
+
+hildon-application-manager-settings-standard (17+0) unstable; urgency=low
+
+  * Fixes: NB#158497 - change dist to fremantle-1.2
+
+ -- Alban Crequy <alban.crequy@collabora.co.uk>  Tue, 02 Mar 2010 17:07:13 +0000
+
+hildon-application-manager-settings-standard (16+0) unstable; urgency=low
+
+  * Fixes: NB#149334 Change catalogue apps conf
+
+ -- Richard Sun <richard.sun@nokia.com>  Thu, 03 Dec 2009 17:06:21 +0200
+
+hildon-application-manager-settings-standard (15+0) unstable; urgency=low
+
+  * Updated: update system software repository
+
+ -- Richard Sun <richard@nokia.com>  Tue, 24 Nov 2009 16:10:32 +0200
+
+hildon-application-manager-settings-standard (14+0) unstable; urgency=low
+
+  * Updates: Reverse u/p from bug NB#146198
+
+ -- Richard Sun <richard.sun@nokia.com>  Thu, 19 Nov 2009 15:42:37 +0200
+
+hildon-application-manager-settings-standard (13+0) unstable; urgency=low
+ 
+  * Fixes: NB#146198 Change of u/p of unreleased repository
+  * Fixes: NB#146210 Rename catalogue Maemo Extras and set it enabled by default.
+  * Fixes: NB#146212 Add a new appl catalogue for OVI Store.
+ 
+ -- Richard Sun <richard.sun@nokia.com>  Wed, 11 Nov 2009 16:30:16 +0200
+
+hildon-application-manager-settings-standard (12+0) unstable; urgency=low
+
+  * New: Release 12
+  * Fixes: NB#133675 Cleanup and finalization of Application Catalogues.
+
+ -- Richard Sun <richard.sun@nokia.com>  Thu, 17 Sep 2009 10:37:53 +0300
+
+hildon-application-manager-settings-standard (11+0) unstable; urgency=low
+
+  * New: Release 11
+  * Fixes: NB#133675 Cleanup and finalization of Application Catalogues.
+  * Updated: SSU catalog L10N name
+
+ -- Richard Sun <richard@localhost>  Tue, 18 Aug 2009 15:57:58 +0300
+
+hildon-application-manager-settings-standard (10+0) unstable; urgency=low
+
+  * New: Release 10
+  * Updated: Maemo Extra public key and domain trusted fingerprint
+
+ -- Richard Sun <richard@localhost>  Tue, 04 Aug 2009 16:30:14 +0300
+
+hildon-application-manager-settings-standard (9+0) unstable; urgency=low
+
+  * New: Release 9 
+  * Fixed: NB#127905 - unused Nokia catalogs should be disabled by default
+
+ -- Richard Sun <richard.sun@nokia.com>  Tue, 14 Jul 2009 02:02:47 +0300
+
+hildon-application-manager-settings-standard (8+0) unstable; urgency=low
+
+  * Instantiated for standard.
+  * Updated: Nokia repository disable by default
+  * Updated: Update Maemo Extra, Extra-Devel frementle repository
+
+ -- Richard Sun <richard.sun@nokia.com>  Wed, 08 Jul 2009 16:43:34 +0300
+
+hildon-application-manager-settings-standard (7+0) unstable; urgency=low
+
+  * Instantiated for standard.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Mon, 11 May 2009 15:04:24 +0300
+
+hildon-application-manager-settings-template (7) unstable; urgency=low
+
+  * Added "Maemo Extras" to standard catalogues.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Mon, 11 May 2009 14:59:37 +0300
+
+hildon-application-manager-settings-template (6) unstable; urgency=low
+
+  * Do not call h-a-m-config in postinst, it is not needed with h-a-m (>=
+    2.2.14).
+  * Depend on apt so that we can use apt-key in postinst.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Mon, 16 Mar 2009 20:25:32 +0200
+
+hildon-application-manager-settings-template (5) unstable; urgency=low
+
+  * Added some catalogues for the "standard" variant.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Mon, 26 Jan 2009 17:00:33 +0200
+
+hildon-application-manager-settings-template (4) unstable; urgency=low
+
+  * Fixed crippling typo in defaults.template that prevented the
+    notifier-uri setting from working.
+  
+    Fixes: NB#96155, The customized URI to poll for announcements is not
+                     available.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Thu, 22 Jan 2009 11:23:17 +0200
+
+hildon-application-manager-settings-template (3) unstable; urgency=low
+
+  * Re-released from Git repo.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Thu, 11 Dec 2008 16:33:12 +0200
+
+hildon-application-manager-settings-template (2) unstable; urgency=low
+
+  * Do not expect variant files when building the template.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Tue, 18 Nov 2008 15:56:11 +0200
+
+hildon-application-manager-settings-template (1) unstable; urgency=low
+
+  * Removed confml-helper from Build-Dependencies.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Tue, 11 Nov 2008 14:10:18 +0200
+
+hildon-application-manager-settings-template (0) unstable; urgency=low
+
+  * First release.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Wed, 08 Oct 2008 19:39:05 +0300

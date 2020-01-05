@@ -1,0 +1,13 @@
+Source: hildon-application-manager-settings-standard
+Maintainer: Ivan J. <parazyd@dyne.org>
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 10)
+
+Package: hildon-application-manager-settings-standard
+Architecture: all
+Depends: apt
+Conflicts: hildon-application-manager-settings, nokia-repository, nokia-system-domain, nokia-certified-domain, nokia-selected-domain, maemo-extras-domain
+Replaces: hildon-application-manager-settings
+Provides: hildon-application-manager-settings
+Description: Application manager settings, standard.

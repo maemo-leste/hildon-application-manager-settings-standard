@@ -1,0 +1,16 @@
+#! /bin/sh
+
+hamdir=/usr/share/hildon-application-manager
+domdir=$hamdir/domains
+keydir=$hamdir/keys
+
+hildon-application-manager-config -v delete $domdir/variant-domains.xexp
+
+keys=`gpg --no-default-keyring --keyring $keydir/variant-keys.gpg \
+          --list-keys --with-colons \
+      | grep ^pub \
+      | cut -d: -f 5`
+
+for k in $keys; do apt-key del $k; done
+
+exit 0
