@@ -9,6 +9,15 @@
 	<sort-weight>500</sort-weight>
   </catalogue>
   <catalogue>
+    <id>maemo-leste-devel</id>
+	<name>Maemo Leste Development (unstable)</name>
+	<uri>http://maedevu.maemo.org/leste-devel</uri>
+	<dist>leste-devel</dist>
+	<components>main contrib non-free</components>
+	<sort-weight>500</sort-weight>
+    <disabled/>
+  </catalogue>
+  <catalogue>
     <id>maemo-leste-extras</id>
 	<name>Maemo Leste Extras</name>
 	<uri>http://maedevu.maemo.org/leste-extras</uri>
