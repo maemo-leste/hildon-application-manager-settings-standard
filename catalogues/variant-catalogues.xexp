@@ -3,7 +3,7 @@
     <id>maemo-leste</id>
 	<name>Maemo Leste</name>
 	<uri>http://maedevu.maemo.org/leste</uri>
-	<dist>leste</dist>
+	<dist>ascii</dist>
 	<components>main contrib non-free</components>
 	<enabled/>
 	<sort-weight>500</sort-weight>
@@ -11,8 +11,8 @@
   <catalogue>
     <id>maemo-leste-devel</id>
 	<name>Maemo Leste Development (unstable)</name>
-	<uri>http://maedevu.maemo.org/leste-devel</uri>
-	<dist>leste-devel</dist>
+	<uri>http://maedevu.maemo.org/leste</uri>
+	<dist>ascii-devel</dist>
 	<components>main contrib non-free</components>
 	<sort-weight>500</sort-weight>
     <disabled/>
@@ -20,37 +20,10 @@
   <catalogue>
     <id>maemo-leste-extras</id>
 	<name>Maemo Leste Extras</name>
-	<uri>http://maedevu.maemo.org/leste-extras</uri>
-	<dist>leste-extras</dist>
-	<components>main contrib non-free</components>
-	<enabled/>
-	<sort-weight>400</sort-weight>
-  </catalogue>
-  <catalogue>
-    <id>devuan-ascii</id>
-	<name>Devuan Ascii</name>
-	<uri>http://pkgmaster.devuan.org/merged</uri>
+	<uri>http://maedevu.maemo.org/extras</uri>
 	<dist>ascii</dist>
 	<components>main contrib non-free</components>
 	<enabled/>
-	<sort-weight>300</sort-weight>
-  </catalogue>
-  <catalogue>
-    <id>devuan-ascii-updates</id>
-	<name>Devuan Ascii Updates</name>
-	<uri>http://pkgmaster.devuan.org/merged</uri>
-	<dist>ascii-updates</dist>
-	<components>main contrib non-free</components>
-	<enabled/>
-	<sort-weight>200</sort-weight>
-  </catalogue>
-  <catalogue>
-	<id>devuan-ascii-security</id>
-	<name>Devuan Ascii Security</name>
-    <uri>http://pkgmaster.devuan.org/merged</uri>
-	<dist>ascii-security</dist>
-	<components>main contrib non-free</components>
-	<enabled/>
-	<sort-weight>100</sort-weight>
+	<sort-weight>400</sort-weight>
   </catalogue>
 </config>
