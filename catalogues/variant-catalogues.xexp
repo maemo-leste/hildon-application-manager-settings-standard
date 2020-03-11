@@ -2,8 +2,8 @@
   <catalogue>
     <id>maemo-leste</id>
 	<name>Maemo Leste</name>
-	<uri>http://maedevu.maemo.org/leste</uri>
-	<dist>ascii</dist>
+	<uri>https://maedevu.maemo.org/leste</uri>
+	<dist>beowulf</dist>
 	<components>main contrib non-free</components>
 	<enabled/>
 	<sort-weight>500</sort-weight>
@@ -11,8 +11,8 @@
   <catalogue>
     <id>maemo-leste-devel</id>
 	<name>Maemo Leste Development (unstable)</name>
-	<uri>http://maedevu.maemo.org/leste</uri>
-	<dist>ascii-devel</dist>
+	<uri>https://maedevu.maemo.org/leste</uri>
+	<dist>beowulf-devel</dist>
 	<components>main contrib non-free</components>
 	<sort-weight>500</sort-weight>
     <disabled/>
@@ -20,8 +20,8 @@
   <catalogue>
     <id>maemo-leste-extras</id>
 	<name>Maemo Leste Extras</name>
-	<uri>http://maedevu.maemo.org/extras</uri>
-	<dist>ascii</dist>
+	<uri>https://maedevu.maemo.org/extras</uri>
+	<dist>beowulf</dist>
 	<components>main contrib non-free</components>
 	<enabled/>
 	<sort-weight>400</sort-weight>
