@@ -1,3 +1,9 @@
+hildon-application-manager-settings-standard (26) unstable; urgency=low
+
+  * Chimaera version
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Tue, 13 Dec 2022 17:47:20 +0100
+
 hildon-application-manager-settings-standard (25) unstable; urgency=low
 
   * Remove main repositories from the default catalogues.
