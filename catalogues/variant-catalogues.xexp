@@ -3,7 +3,7 @@
     <id>maemo-leste-extras</id>
 	<name>Maemo Leste Extras</name>
 	<uri>https://maedevu.maemo.org/extras</uri>
-	<dist>chimaera</dist>
+	<dist>daedalus</dist>
 	<components>main contrib non-free</components>
 	<enabled/>
 	<sort-weight>400</sort-weight>
