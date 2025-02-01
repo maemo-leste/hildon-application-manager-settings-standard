@@ -10,7 +10,7 @@
   </catalogue>
   <catalogue>
     <id>maemo-leste-devel</id>
-	<name>Maemo Leste Development (unstable)</name>
+	<name>Maemo Leste Development (development, unstable)</name>
 	<uri>https://maedevu.maemo.org/leste</uri>
 	<dist>chimaera-devel</dist>
 	<components>main contrib non-free</components>
@@ -18,8 +18,8 @@
     <disabled/>
   </catalogue>
   <catalogue>
-    <id>maemo-leste-devel</id>
-	<name>Maemo Leste Development (unstable)</name>
+    <id>maemo-leste-experimental</id>
+	<name>Maemo Leste Development (experimental, unstable)</name>
 	<uri>https://maedevu.maemo.org/leste</uri>
 	<dist>chimaera-experimental</dist>
 	<components>main contrib non-free</components>
