@@ -3,7 +3,7 @@
     <id>maemo-leste</id>
 	<name>Maemo Leste</name>
 	<uri>https://maedevu.maemo.org/leste</uri>
-	<dist>beowulf</dist>
+	<dist>chimaera</dist>
 	<components>main contrib non-free</components>
 	<enabled/>
 	<sort-weight>500</sort-weight>
@@ -12,7 +12,16 @@
     <id>maemo-leste-devel</id>
 	<name>Maemo Leste Development (unstable)</name>
 	<uri>https://maedevu.maemo.org/leste</uri>
-	<dist>beowulf-devel</dist>
+	<dist>chimaera-devel</dist>
+	<components>main contrib non-free</components>
+	<sort-weight>500</sort-weight>
+    <disabled/>
+  </catalogue>
+  <catalogue>
+    <id>maemo-leste-devel</id>
+	<name>Maemo Leste Development (unstable)</name>
+	<uri>https://maedevu.maemo.org/leste</uri>
+	<dist>chimaera-experimental</dist>
 	<components>main contrib non-free</components>
 	<sort-weight>500</sort-weight>
     <disabled/>
