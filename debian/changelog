@@ -1,3 +1,9 @@
+hildon-application-manager-settings-standard (29) unstable; urgency=low
+
+* Add gpg key IDs
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Tue, 04 Feb 2025 17:11:25 +0200
+
 hildon-application-manager-settings-standard (28) unstable; urgency=low
 
   * Add devuan repos
