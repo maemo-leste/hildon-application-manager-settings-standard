@@ -1,3 +1,9 @@
+hildon-application-manager-settings-standard (31) unstable; urgency=low
+
+  * reset security domains on install/upgrade
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Sat, 22 Feb 2025 08:19:43 +0200
+
 hildon-application-manager-settings-standard (30) unstable; urgency=low
 
   * remove devuan repos
