@@ -1,32 +1,5 @@
 <config>
   <catalogue>
-    <id>devuan</id>
-	<name>Devuan Chimaera</name>
-	<uri>http://pkgmaster.devuan.org/merged</uri>
-	<dist>chimaera</dist>
-	<components>main contrib non-free</components>
-	<sort-weight>500</sort-weight>
-    <enabled/>
-  </catalogue>
-  <catalogue>
-    <id>devuan</id>
-	<name>Devuan Updates</name>
-	<uri>http://pkgmaster.devuan.org/merged</uri>
-	<dist>chimaera-updates</dist>
-	<components>main contrib non-free</components>
-	<sort-weight>500</sort-weight>
-    <enabled/>
-  </catalogue>
-  <catalogue>
-    <id>devuan</id>
-	<name>Devuan Security Updates</name>
-	<uri>http://pkgmaster.devuan.org/merged</uri>
-	<dist>chimaera-security</dist>
-	<components>main contrib non-free</components>
-	<sort-weight>500</sort-weight>
-    <enabled/>
-  </catalogue>
-  <catalogue>
     <id>maemo-leste</id>
 	<name>Maemo Leste</name>
 	<uri>https://maedevu.maemo.org/leste</uri>
@@ -60,6 +33,14 @@
 	<dist>chimaera</dist>
 	<components>main contrib non-free</components>
 	<enabled/>
+	<sort-weight>400</sort-weight>
+  </catalogue>
+  <catalogue>
+    <id>maemo-leste-extras-testing</id>
+	<name>Maemo Leste Extras (testing)</name>
+	<uri>https://maedevu.maemo.org/extras</uri>
+	<dist>chimaera-testing</dist>
+	<components>main contrib non-free</components>
 	<sort-weight>400</sort-weight>
   </catalogue>
 </config>
