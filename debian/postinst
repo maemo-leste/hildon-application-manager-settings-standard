@@ -1,0 +1,9 @@
+#! /bin/sh
+
+hamdir=/var/lib/hildon-application-manager
+
+rm -f $hamdir/domain.*
+
+#DEBHELPER#
+
+exit 0
