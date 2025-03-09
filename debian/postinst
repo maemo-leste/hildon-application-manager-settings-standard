@@ -2,7 +2,8 @@
 
 hamdir=/var/lib/hildon-application-manager
 
-rm -f $hamdir/domain.*
+# domains will be recreated on next reboot
+touch $hamdir/reset.domains
 
 #DEBHELPER#
 

@@ -2,7 +2,7 @@ Source: hildon-application-manager-settings-standard
 Maintainer: Ivan J. <parazyd@dyne.org>
 Section: misc
 Priority: optional
-Build-Depends: debhelper (>= 10)
+Build-Depends: debhelper (>= 10), maemo-system-services-dev
 
 Package: hildon-application-manager-settings-standard
 Architecture: all
