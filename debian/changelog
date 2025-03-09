@@ -1,3 +1,9 @@
+hildon-application-manager-settings-standard (42) unstable; urgency=low
+
+  * reset security domains on reboot, after install/upgrade
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Sun, 09 Mar 2025 08:19:43 +0200
+
 hildon-application-manager-settings-standard (41) unstable; urgency=low
 
   * reset security domains on install/upgrade
