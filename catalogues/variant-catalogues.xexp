@@ -43,4 +43,12 @@
 	<components>main contrib non-free</components>
 	<sort-weight>400</sort-weight>
   </catalogue>
+  <catalogue>
+    <id>maemo-leste-extras-experimental</id>
+	<name>Maemo Leste Extras Experimental</name>
+	<uri>https://git.maemo.org/api/packages/leste-extras/debian</uri>
+	<dist>daedalus</dist>
+	<components>main contrib non-free</components>
+	<sort-weight>400</sort-weight>
+  </catalogue>
 </config>
