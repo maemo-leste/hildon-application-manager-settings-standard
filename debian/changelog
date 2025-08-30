@@ -1,3 +1,9 @@
+hildon-application-manager-settings-standard (43) unstable; urgency=low
+
+  * Add forgejo extras
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sun, 31 Aug 2025 00:27:54 +0200
+
 hildon-application-manager-settings-standard (42) unstable; urgency=low
 
   * reset security domains on reboot, after install/upgrade
