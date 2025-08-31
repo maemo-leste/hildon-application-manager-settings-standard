@@ -1,3 +1,9 @@
+hildon-application-manager-settings-standard (44) unstable; urgency=low
+
+  * Add forgejo extras as testing
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sun, 31 Aug 2025 11:05:25 +0200
+
 hildon-application-manager-settings-standard (43) unstable; urgency=low
 
   * Add forgejo extras
