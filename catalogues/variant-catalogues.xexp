@@ -3,7 +3,7 @@
     <id>maemo-leste</id>
 	<name>Maemo Leste</name>
 	<uri>https://maedevu.maemo.org/leste</uri>
-	<dist>daedalus</dist>
+	<dist>excalibur</dist>
 	<components>main contrib non-free</components>
 	<enabled/>
 	<sort-weight>500</sort-weight>
@@ -12,7 +12,7 @@
     <id>maemo-leste-devel</id>
 	<name>Maemo Leste Development (development, unstable)</name>
 	<uri>https://maedevu.maemo.org/leste</uri>
-	<dist>daedalus-devel</dist>
+	<dist>excalibur-devel</dist>
 	<components>main contrib non-free</components>
 	<sort-weight>500</sort-weight>
     <disabled/>
@@ -21,7 +21,7 @@
     <id>maemo-leste-experimental</id>
 	<name>Maemo Leste Development (experimental, unstable)</name>
 	<uri>https://maedevu.maemo.org/leste</uri>
-	<dist>daedalus-experimental</dist>
+	<dist>excalibur-experimental</dist>
 	<components>main contrib non-free</components>
 	<sort-weight>500</sort-weight>
     <disabled/>
@@ -30,7 +30,7 @@
     <id>maemo-leste-extras</id>
 	<name>Maemo Leste Extras</name>
 	<uri>https://maedevu.maemo.org/extras</uri>
-	<dist>daedalus</dist>
+	<dist>excalibur</dist>
 	<components>main contrib non-free</components>
 	<enabled/>
 	<sort-weight>400</sort-weight>
@@ -39,7 +39,7 @@
     <id>maemo-leste-extras-testing</id>
 	<name>Maemo Leste Extras Testing</name>
 	<uri>https://git.maemo.org/api/packages/leste-extras/debian</uri>
-	<dist>daedalus</dist>
+	<dist>excalibur</dist>
 	<components>main</components>
 	<sort-weight>400</sort-weight>
   </catalogue>
